@@ -1,8 +1,8 @@
-name: Say "Hello World" every 5 minutes. 6
+name: Say "Hello World" every 5 minutes. 8
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
+    - cron: "*/5 * * * *"  # Every 5 minutes
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
